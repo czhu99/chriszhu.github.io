@@ -4,7 +4,7 @@ var isGameOver;
 
 function setup() 
 {
-    createCanvas(250, 250);
+    createCanvas(1600, 900);
     player = createSprite(width/2, height-25, 50, 50);
     enemy = createSprite(width/2, 0, 10, 30);
 }
